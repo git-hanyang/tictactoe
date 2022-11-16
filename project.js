@@ -68,7 +68,7 @@ function setTile(){
 
     //check winner
     checkWinner();
-
+    checkDraw();
 winnerTile=document.getElementsByClassName('winner')
     if(winnerTile[0].innerText=='O'){
         Oturn.innerText='Yes sirr, I won ! ';
@@ -156,7 +156,25 @@ function reset(){
         Xturn.innerText='';
     });
     
-     
+}
+
+function checkDraw(){
+  
+    var Oturn=document.getElementById('Oturn');
+    var Xturn=document.getElementById('Xturn');
+    const stringBoard=board.toString()
+    const boardArr=stringBoard.split(',')
+    
+    const isNotEmpty=boardArr.every((el)=>{
+        return el!=' ';
+    })
+
+    if(isNotEmpty){
+        Oturn.innerText='finally tied';
+        Xturn.innerText='cracked my head in out';
+        console.log(isNotEmpty)
+        console.log(boardArr)
+    }
 }
 
 // document.querySelector('#resetBtn').addEventListener('click', reStart);
