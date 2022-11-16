@@ -152,7 +152,7 @@ function reset(){
         tile.classList.remove('winner')
         // tile.addEventListener("click", setTile);
         gameOver = false;
-        Oturn.innerText='Come again';
+        Oturn.innerText='I shall start first';
         Xturn.innerText='';
     });
     
