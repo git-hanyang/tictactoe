@@ -1,0 +1,10 @@
+# Making a tictactoe minigame
+Identify player 1 and player 2
+Both players play on the same pc
+Player O will have to start the game first
+Each player's round end after making one move
+If there are 3 of the same markings aligned, the owner of these 3 markings will be taken as the winner
+Else, the game is tied after all the tiles are marked
+After that round ended, erase all the markings by pressing the reset button
+
+

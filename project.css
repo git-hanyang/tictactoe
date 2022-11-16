@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 20px; */
+}
+
+#board{
+    background-color: #bde0fe;
+    padding-top:1px;
+    min-width: 200px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+
+.tile{
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line{
+    border-bottom: 3px solid black ;
+
+}
+
+.vertical-line{
+    border-right: 3px solid black;
+}
+
+.winner{
+    background-color: lightgrey;
+    color: red;
+    padding-top:1px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 0.5em;
+    font-family: 'Josefin Slab', serif;
+    color:antiquewhite
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Josefin Slab', serif;
+    color:black;
+}
+#Oturn{
+    font-family: 'Kanit', sans-serif;
+}
+
+#Xturn{
+    font-family: 'Dancing Script', cursive;
+}
+section{
+    background-color: beige;
+    max-width: 800px;
+    padding: 20px 0px 20px 20px;
+    border-radius: 30px;
+    margin:0 auto;
+    margin-bottom: 2em;
+}
+
+#resetBtn{
+    width: 150px;
+    margin-top: 2em;
+    border-radius: 10px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    cursor: pointer
+}
+.img{
+    background-image: url("https://i.imgur.com/SQ7Kt1V.jpg"  );
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+}
