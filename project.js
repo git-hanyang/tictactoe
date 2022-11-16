@@ -62,7 +62,7 @@ function setTile(){
     }
     else {
         currPlayer = playerO;
-        Oturn.innerText='My turn';
+        Oturn.innerText='Now me';
         Xturn.innerText='';
     }
 
@@ -152,7 +152,7 @@ function reset(){
         tile.classList.remove('winner')
         // tile.addEventListener("click", setTile);
         gameOver = false;
-        Oturn.innerText='Again ! again !';
+        Oturn.innerText='Come again';
         Xturn.innerText='';
     });
     
