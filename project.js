@@ -71,11 +71,11 @@ function setTile(){
 
 winnerTile=document.getElementsByClassName('winner')
     if(winnerTile[0].innerText=='O'){
-        Oturn.innerText='Yes , I won ! >_<';
+        Oturn.innerText='Yes sirr, I won ! ';
         Xturn.innerText='';
     }
     else{
-        Xturn.innerText='Ez win ! :D';
+        Xturn.innerText='Woo hoo! Ez win ! ';
         Oturn.innerText='';
     }
 }
