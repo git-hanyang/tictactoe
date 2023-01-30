@@ -27,7 +27,7 @@ function setGame() {
             
             tile.innerText = " ";
             document.getElementById("board").appendChild(tile);
-            tile.addEventListener("click", setTile);
+            tile.addEventListener("click", setTile); //this refers to tile object
             
         }
     }
@@ -71,12 +71,12 @@ function setTile(){
     checkDraw();
 winnerTile=document.getElementsByClassName('winner')
     if(winnerTile[0].innerText=='O'){
-        Oturn.innerText='Yes sirr, I won ! ';
-        Xturn.innerText='';
+        Oturn.innerText='Victory!';
+        Xturn.innerText='Oh no..';
     }
     else{
-        Xturn.innerText='Woo hoo! Ez win ! ';
-        Oturn.innerText='';
+        Xturn.innerText='Hah! I won';
+        Oturn.innerText='Damn!';
     }
 }
 
@@ -170,8 +170,8 @@ function checkDraw(){
     })
 
     if(isNotEmpty){
-        Oturn.innerText='finally tied';
-        Xturn.innerText='cracked my head in out';
+        Oturn.innerText='A good draw';
+        Xturn.innerText='What a draw';
         console.log(isNotEmpty)
         console.log(boardArr)
     }
