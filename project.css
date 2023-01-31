@@ -16,6 +16,7 @@
     height: 450px;
     margin: 0 auto;
     border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(240, 245, 178, 0.5);
     
 }
 
@@ -73,6 +74,8 @@ section{
     border-radius: 30px;
     margin:0 auto;
     margin-bottom: 2em;
+    box-shadow: 0 0 30px rgba(105, 138, 14, 0.5);
+    border: 7px dashed rgba(105, 138, 14, 0.5);
 }
 
 #resetBtn{
@@ -89,6 +92,7 @@ section{
 .img{
     background-image: url("https://i.imgur.com/SQ7Kt1V.jpg"  );
     background-size: cover;
+    opacity: 0.97;
     /* background-repeat: no-repeat; */
-    
 }
+
