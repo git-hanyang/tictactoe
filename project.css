@@ -89,10 +89,17 @@ section{
     margin-bottom: 2em;
     cursor: pointer
 }
+
 .img{
     background-image: url("https://i.imgur.com/SQ7Kt1V.jpg"  );
     background-size: cover;
     opacity: 0.97;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
     /* background-repeat: no-repeat; */
 }
 
